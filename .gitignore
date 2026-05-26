@@ -1,3 +1,7 @@
+# Output files
+*.xlsx
+*.zip
+
 # Python-generated files
 __pycache__/
 *.py[oc]
