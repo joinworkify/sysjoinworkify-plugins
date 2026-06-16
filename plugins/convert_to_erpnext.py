@@ -34,6 +34,7 @@ def process_sheet(input_file, sheet_name):
     # Row 1 (index 1) is the header
     df.columns = df.iloc[1]
     df = df.iloc[2:].reset_index(drop=True)
+    df = df.iloc[:, :8]
     df.columns = [
         "Date",
         "Place",
